@@ -1,0 +1,41 @@
+* {
+    /*margin: 0;
+    padding: 0;*/
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    /*padding: 2%;*/
+    margin: 2%;
+}
+
+.header-container {
+    margin: 1%;
+    padding: 1%;
+    align-items: center;
+}
+
+header ul li {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.header-container > nav {
+    float: left;
+}
+
+.header-container > div {
+    float: right;
+}
+
+main {
+    padding: 1%;
+    height: calc(100vh - 140px);
+    background-color: blue;
+}
+
+footer {
+    padding: 1%;
+    background-color: rgb(105, 105, 105);
+}
