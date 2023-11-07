@@ -21,14 +21,6 @@ header ul li {
     justify-content: space-between;
 }
 
-.header-container > nav {
-    float: left;
-}
-
-.header-container > div {
-    float: right;
-}
-
 main {
     padding: 1%;
     height: calc(100vh - 140px);
