@@ -54,12 +54,3 @@ main {
     max-width: 100%;
     height: auto;
 }
-
-footer {
-    padding: 20px;
-    background-color: rgb(105, 105, 105);
-}
-
-.my-col {
-    width: calc((100% / 4) * 1);
-}
