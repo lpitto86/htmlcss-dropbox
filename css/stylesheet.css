@@ -11,15 +11,11 @@ header {
 
 .header-container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    /*margin: 1%;
-    padding: 1%;*/
 }
 
 header ul {
     display: flex;
-    list-style: none;
 }
 
 header ul li {
