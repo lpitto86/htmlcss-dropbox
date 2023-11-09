@@ -31,12 +31,21 @@ html {
     display: flex;
 }
 
+.info > * {
+    margin: 10px;
+}
+
 .info .small-info {
     width: 30%
 }
 
 .info .big-info {
     width: 70%;
+}
+
+.button {
+    background-color: blue;
+    color: white;
 }
 
 .main-nav-container {
@@ -55,11 +64,27 @@ html {
 }
 
 header {
-    background-color: white;
-    padding: 20px;
+    margin-bottom: 80px;
 }
 
-.header-container {
+.jumbotron {
+    position: relative;
+    top: 50px;
+}
+
+img {
+    width: 70%;
+}
+
+main section {
+    margin-bottom: 50px;
+}
+
+main section h2 {
+    margin-bottom: 40px;
+}
+
+.columns-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -80,39 +105,131 @@ header {
     width: 100%;
 }
 
-header ul {
+#plans .plan-header {
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 10px;
+}
+
+#plans .plan-body {
+    padding: 10px;
+}
+
+#features > * {
+    margin-bottom: 20px;
+}
+
+#bring-with-you {
+    background-color: rgb(157, 196, 238);
+    padding: 30px 0;
+}
+
+.faq-container > * {
+    display: flex;
+    border-top: 1px solid black;
+    padding: 30px 0;
+}
+
+.faq-container > *:last-of-type {
+    border-bottom: 1px solid black;
+}
+
+.faq-container > * > p {
+    flex-grow: 1;
+}
+
+.faq-container > * > div {
+    padding: 0 20px;
+}
+
+.customers-container {
+    display: flex;
+    margin-top: 40px;
+}
+
+.customers-container > * {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+#footer-top {
+    padding: 50px 0;
+}
+
+#footer-bottom {
+    padding: 30px 0;
+}
+
+.footer-nav-container {
     display: flex;
 }
 
-header ul li {
-    margin: 12px;
+.footer-nav-container > * {
+    width: 20%;
 }
 
-.fa-dropbox {
-    color: blue;
+.debug header {
+    background-color: aqua;
+    border: 2px dashed black;
+    margin-bottom: 100px;
 }
 
-.header-button {
-    background-color: rgb(9, 137, 243);
-    border: 0.5px solid black;
-    color: white;
-    height: 25px;
-    width: 40px;
+.debug header .main-nav-container {
+    background-color: orange;
+    border: 2px dashed brown;
 }
 
-main {
-    padding: 0;
-    height: calc(100vh - 140px);
-    background-color: white;
-    padding: 20px;
+.debug header .main-nav-container nav {
+    background-color: purple;
+    border: 2px dashed white;
 }
 
-.text {
-    font-size: 16px;
-    line-height: 1.6;
+.debug .main-nav-container nav ul li a:hover {
+    background-color: aqua;
 }
 
-.image {
-    max-width: 100%;
-    height: auto;
+/*.debug #header-bottom {
+    padding-top: 50px;
+    padding-bottom: 50px;   
+}*/
+
+.debug .jumbotron {
+    background-color: pink;
+    border: 2px dashed black;
+    min-height: 300px;
+}
+
+.debug .info {
+    background-color: green;
+    border: 2px dashed white;
+}
+
+.debug .info .small-info {
+    background-color: yellow;
+    border: 2px dashed red;
+}
+
+.debug .info .big-info {
+    background-color: lightcoral;
+    border: 2px dashed aquamarine;
+}
+
+.debug #features > * {
+    background-color: chocolate;
+    border: 2px dashed black;
+    min-height: 100px;
+}
+
+.debug .footer-nav-container > * {
+    background-color: lightcoral;
+    border: 2px dashed aquamarine;
+}
+
+.debug .customers-container > * {
+    background-color: darkcyan;
+    border: 2px dashed red;
 }

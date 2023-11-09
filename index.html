@@ -8,56 +8,63 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
-<body>
+<body class="debug">
+
     <header>
-        <div class="header-container">
-            <div>
-                <ul>
-                    <li>
-                        <i class="fa fa-dropbox" style="font-size:24px"></i>
-                            Dropbox
-                                </a>
-                    </li>
-                    <li>
-                        Perché Dropbox
-                    </li>
-                    <li>
+        <section id="header-top">
+            <div class="container-full">
+                <div class="main-nav-container">
+                    <nav>
+                        <ul>
+                            <li>
                                 <a href="#">
-                        Funzioni
+                                    Dropbox
                                 </a>
-                    </li>
-                    <li>
+                            </li>
+                            <li>
                                 <a href="#">
-                        Piani e Prezzi
+                                    Perché Dropbpx
                                 </a>
-                    </li>
-                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Funzioni
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Piani e Prezzi
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Supporto
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Contatta l'ufficio vendite
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Accedi
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Inizia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <div>
-                <nav>
-                    <ul>
-                        <li>
-                                <a href="#">
-                            Supporto
-                                </a>
-                        </li>
-                        <li>
-                                <a href="#">
-                            Contatta l'ufficio vendite
-                                </a>
-                        </li>
-                        <li>
-                                <a href="#">
-                            Accedi
-                                </a>
-                        </li>
-                        <button class="header-button">
-                            Inizia
-                        </button>
-                    </ul>
-                </nav>
-            </div>
-        </div>
         </section>
 
         <section id="header-bottom">
@@ -68,10 +75,18 @@
                     </h1>
                     <div class="info">
                         <div class="small-info">
-                            SMALL
+                            <p>
+                                Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intellignente e integrato per ottimizzzare il flusso di lavoro esistente.
+                            </p>
+                            <button class="button">
+                                Inizia la tua prova gratuita
+                            </button>
+                            <p>
+                                Annulla in qualsiasi momento
+                            </p>
                         </div>
                         <div class="big-info">
-                            BIG
+                            <img src="img/jumbo.png" alt="Image 1">
                         </div>
                     </div>
                 </div>
@@ -80,11 +95,135 @@
     </header>
 
     <main>
-        <section class="main-container-1">
-            <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-            <div class="main-container-section">
-                <div class="text">
-                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+        <section>
+            <div class="container-small">
+                <h2>
+                    Trova il piano business che fa per te
+                </h2>
+                <div class="margin-bottom-20">
+                    <input type="radio" id="monthly" name="billing">
+                    <label for="monthly">
+                        Fatturazione mensile
+                    </label>
+                    <input type="radio" id="yearly" name="billing">
+                    <label for="yearly">
+                        Fatturazione annuale
+                    </label>
+                </div>
+                <div id="plans" class="columns-container">
+                    <div>
+                        <div class="plan-header">
+                            Singolo
+                        </div>
+                        <div class="plan-body">
+                            Professional
+                        </div>
+                    </div>
+                    <div>
+                        <div class="plan-header">
+                            Team
+                        </div>
+                        <div class="plan-body">
+                            Advanced
+                        </div>
+                    </div>
+                    <div>
+                        <div class="plan-header">
+                            Azienda
+                        </div>
+                        <div class="plan-body">
+                            Enterprise
+                        </div>
+                    </div>
+                    <div>
+                        <div class="plan-header">
+                            Team
+                        </div>
+                        <div class="plan-body">
+                            <div class="info">
+                                <div class="big-info">
+                                    BIG
+                                </div>
+                                <div class="small-info">
+                                    SMALL
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-small">
+                <div class="info">
+                    <div class="big-info">
+                        BIG
+                    </div>
+                    <div class="small-info">
+                        SMALL
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-small">
+                <h2>
+                    Esegui più operazioni con Dropbox Business
+                </h2>
+                <div id="features" class="columns-container">
+                    <div>
+                        1
+                    </div>
+                    <div>
+                        2
+                    </div>
+                    <div>
+                        3
+                    </div>
+                    <div>
+                        4
+                    </div>
+                    <div>
+                        5
+                    </div>
+                    <div>
+                        6
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-small">
+                <h2>
+                    Più di 500.000 team utilizzano Dropbox Business
+                </h2>
+                <a href="#">
+                    Scopri di più sui nostri clienti
+                </a>
+            </div>
+            <div class="container-full">
+                <div class="customers-container">
+                    <div>
+
+                    </div>
+                    <div>
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="bring-with-you">
+            <div class="container-small">
+                <div class="info">
+                    <div class="big-info">
+                        BIG
+                    </div>
+                    <div class="small-info">
+                        SMALL
+                    </div>
                 </div>
             </div>
         </section>
@@ -99,7 +238,23 @@
                             Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
                         </p>
                         <div>
-                            <i class="fa-solid fa-chevron-down">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <p>
+                            Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
+                        </p>
+                        <div>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <p>
+                            Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
+                        </p>
+                        <div>
+                            <i class="fa-solid fa-chevron-down"></i>
                         </div>
                     </div>
                 </div>
@@ -107,36 +262,32 @@
         </section>
     </main>
 
-            <nav>
-                <ul>
-                    <li>
-                        <a>
-                            Applicazione desktop
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            Perché Dropbox
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            Piani
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            Sicurezza
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            Funzioni
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+    <footer>
+        <section id="footer-top">
+            <div class="container">
+                <div class="footer-nav-container">
+                    <div>
+                        Dropbox
+                    </div>
+                    <div>
+                        Prodotti
+                    </div>
+                    <div>
+                        Azienda
+                    </div>
+                    <div>
+                        Supporto
+                    </div>
+                    <div>
+                        Community
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="footer-bottom">
+            <div class="container">
+                FOOTER BOTTOM
+            </div>
         </section>
     </footer>
     
