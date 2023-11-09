@@ -44,6 +44,8 @@ html {
 }
 
 .button {
+    margin: 30px 0 30px;
+    padding: 10px;
     background-color: blue;
     color: white;
 }
@@ -69,11 +71,17 @@ header {
 
 .jumbotron {
     position: relative;
-    top: 50px;
+    top: 10px;
+}
+
+.jumbotron h1 {
+    font-size: 60px;
+    padding: 4% 10%;
 }
 
 img {
-    width: 70%;
+    width: 100%;
+    height: 110%;
 }
 
 main section {
@@ -81,6 +89,11 @@ main section {
 }
 
 main section h2 {
+    font-size: 30px;
+    padding: 4% 10%;
+}
+
+.margin-bottom-20 {
     margin-bottom: 40px;
 }
 
@@ -173,23 +186,22 @@ footer {
 }
 
 .debug header {
-    background-color: aqua;
-    border: 2px dashed black;
+    background-color: rgb(152, 197, 245);
     margin-bottom: 100px;
 }
 
 .debug header .main-nav-container {
-    background-color: orange;
-    border: 2px dashed brown;
+    background-color: white;
+    height: 50px;
+    align-items: center;
 }
 
 .debug header .main-nav-container nav {
-    background-color: purple;
-    border: 2px dashed white;
+    background-color: white;
 }
 
 .debug .main-nav-container nav ul li a:hover {
-    background-color: aqua;
+    background-color: rgb(152, 197, 245);
 }
 
 /*.debug #header-bottom {
@@ -198,25 +210,26 @@ footer {
 }*/
 
 .debug .jumbotron {
-    background-color: pink;
-    border: 2px dashed black;
+    /*background-color: pink;
+    border: 2px dashed black;*/
     min-height: 300px;
 }
 
 .debug .info {
-    background-color: green;
-    border: 2px dashed white;
+    /*background-color: green;
+    border: 2px dashed white;*/
+    padding: 0 20px 0;
 }
 
-.debug .info .small-info {
+/*.debug .info .small-info {
     background-color: yellow;
     border: 2px dashed red;
-}
+}*/
 
-.debug .info .big-info {
+/*.debug .info .big-info {
     background-color: lightcoral;
     border: 2px dashed aquamarine;
-}
+}*/
 
 .debug #features > * {
     background-color: chocolate;
