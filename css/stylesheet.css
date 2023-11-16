@@ -44,6 +44,7 @@ html {
 }
 
 .button {
+    width: 100%;
     margin: 30px 0 30px;
     padding: 10px;
     background-color: blue;
@@ -126,6 +127,15 @@ main section h2 {
 
 #plans .plan-body {
     padding: 10px;
+    margin: 20px;
+}
+
+#plans .plan-body ul {
+    margin: 20px 5px;
+}
+
+#plans .plan-body ul li {
+    margin: 10px;
 }
 
 #features > * {
